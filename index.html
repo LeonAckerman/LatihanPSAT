@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan PSAT membuat Website Pribadi</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+      <marquee>  <h1>Selamat Datang di Website Saya</h1> </marquee>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('pendidikan')">Pendidikan</a></li>
+                <li><a href="#" onclick="showSection('jadwal')">Jadwal Pelajaran</a></li>
+                <li><a href="#" onclick="showSection('aktivitas')">Aktivitas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="active">
+        <h2>Home</h2>
+        <p>Halo! Nama saya Muhamad Zulfi Ridwan. Saya seorang pelajar SMK dengan minat di bidang Rekayasa Perangkat Lunak.
+Disini saya membuat Contoh website pribadi dengan gabungan syntax html, css, dan javascript. Tentunya dengan bantuan materi sebelumnya yang saya pelajari di sekolah dengan bapak Taufik, dan sedikit informasi² yang saya dapatkan di internet. Khususnya dalam syntax javascrip yang belum diajarkan di materi kemarin, sekian Terimakasih</p>
+    </section>
+
+    <section id="pendidikan">
+        <h2>Pendidikan</h2>
+        <ul>
+            <li>SD: SDN Lewo 2</li>
+            <li>SMP: SMPN 6 TSM</li>
+            <li>SMK: SMK ARTANITA(sekarang)</li>
+            <li>Pelatihan/Training: program Latihan singkat Microsoft Office di Kampus LP3I</li>
+        </ul>
+    </section>
+
+    <section id="jadwal">
+        <h2>Jadwal Pelajaran XI RPL</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hari</th>
+                    <th>Jam - Mata Pelajaran</th>
+                    <th>Guru</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="4">Senin</td>
+                    <td>12a - BK</td>
+                    <td>Bu Yanti</td>
+                </tr>
+                <tr>
+                    <td>18c - PBO</td>
+                    <td>Bu Alin</td>
+                </tr>
+                <tr>
+                    <td>14 - MTK</td>
+                    <td>Bu Rima</td>
+                </tr>
+                <tr>
+                    <td>19a - PKK</td>
+                    <td>Bu Sri</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Selasa</td>
+                    <td>12a - BK</td>
+                    <td>Bu Yanti</td>
+                </tr>
+                <tr>
+                    <td>02 - B.Inggris</td>
+                    <td>Bu Lis</td>
+                </tr>
+                <tr>
+                    <td>05 - PAI</td>
+                    <td>Bu Nining</td>
+                </tr>
+                <tr>
+                    <td>19a - PKK</td>
+                    <td>Bu Sri</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Rabu</td>
+                    <td>15 - PWPB</td>
+                    <td>Pa Taufik</td>
+                </tr>
+                <tr>
+                    <td>12c - PPKN</td>
+                    <td>Bu Yanti</td>
+                </tr>
+                <tr>
+                    <td>19a - PKK</td>
+                    <td>Bu Sri</td>
+                </tr>
+                <tr>
+                    <td>07a - B.Indo</td>
+                    <td>Bu Indi</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Kamis</td>
+                    <td>15 - PWPB</td>
+                    <td>Pa Taufik</td>
+                </tr>
+                <tr>
+                    <td>18b - Basis Data</td>
+                    <td>Bu Alin</td>
+                </tr>
+                <tr>
+                    <td>18c - PBO</td>
+                    <td>Bu Alin</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Jumat</td>
+                    <td>13c - PPL</td>
+                    <td>Bu Dina</td>
+                </tr>
+                <tr>
+                    <td>14 - MTK</td>
+                    <td>Bu Rima</td>
+                </tr>
+                <tr>
+                    <td>17 - Penjas</td>
+                    <td>Pa Wildan</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="aktivitas">
+        <h2>Aktivitas</h2>
+        <p>Saya aktif dalam ekskul seperti Badminton dan kegiatan gym akhir pekan.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Muhamad Zulfi Ridwan. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
